@@ -31,7 +31,7 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="mi-cuenta.html">Mi Cuenta</a>
-                        <a class="dropdown-item" href="#">Cerrar Sesión</a>
+                        <a class="dropdown-item" href="login/ingreso.html">Cerrar Sesión</a>
                     </div>
                 </li>
             </ul>
@@ -48,17 +48,17 @@
         <hr>
         <ul class="nav nav-tabs" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
-              <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">lista</a>
+              <a class="nav-link active" id="list-tab" data-toggle="tab" href="#list" role="tab" aria-controls="list" aria-selected="true">lista</a>
             </li>
             <li class="nav-item" role="presentation">
-              <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Crear</a>
+              <a class="nav-link" id="crear-tab" data-toggle="tab" href="#crear" role="tab" aria-controls="crear" aria-selected="false">Crear</a>
             </li>
             <li class="nav-item" role="presentation">
-              <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Actualizar</a>
+              <a class="nav-link" id="actualizar-tab" data-toggle="tab" href="#actualizar" role="tab" aria-controls="actualizar" aria-selected="false">Actualizar</a>
             </li>
           </ul>
           <div class="tab-content mt-3" id="myTabContent">
-            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <div class="tab-pane fade show active" id="list" role="tabpanel" aria-labelledby="list-tab">
               <button class="btn btn-primary mb-3 btn-sm"> <i class="fa fa-plus"></i>  Crear nuevo</button>   
                 <div class="row">
                     <div class="col-md-12">
@@ -103,7 +103,7 @@
                         </td>
                       </tr>
                       <tr>
-                        <td>Estudio</td>
+                        <td>Curso</td>
                         <td>Telemática</td>
                         <td>Desarrollo con ArcGIS</td>
                         <td>2020</td>
@@ -118,7 +118,7 @@
                     </tbody>
                   </table>
             </div>
-            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+            <div class="tab-pane fade" id="crear" role="tabpanel" aria-labelledby="crear-tab">
                 <form>
                     <div class="form-group">
                       <label for="formacion-tipo">Tipo</label>
@@ -149,7 +149,7 @@
                     <div class="form-group">
                       <label for="formacion-entidad">Visibilidad</label>
                       <div class="custom-control custom-switch">
-                        <input type="checkbox" required class="custom-control-input" id="formacion-visible">
+                        <input type="checkbox" checked="true" required class="custom-control-input" id="formacion-visible">
                         <label class="custom-control-label" for="formacion-visible">Visible</label>
                       </div>
                     </div>
@@ -157,7 +157,7 @@
                     <button class="btn btn-primary">Crear</button>
                   </form>
             </div>
-            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+            <div class="tab-pane fade" id="actualizar" role="tabpanel" aria-labelledby="actualizar-tab">
                 <form>
                     <div class="form-group">
                       <label for="formacion-tipo">Tipo</label>
@@ -178,7 +178,7 @@
                     </div>
                     <div class="form-group">
                       <label for="formacion-entidad">Detalle</label>
-                       <textarea class="form-control" name="" id="" cols="30" rows="3"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium nesciunt soluta eum cumque aut? Suscipit expedita eum eveniet quam accusamus, fugit necessitatibus nam ab hic magni tenetur dolores eius saepe!</textarea>
+                       <textarea class="form-control" name="" id="" cols="30" rows="3">Curso de programación web</textarea>
                        <span class="pull-right badge badge-secondary" id="count_message">250 caracteres max</span>
                     </div>
                     <div class="form-group">
